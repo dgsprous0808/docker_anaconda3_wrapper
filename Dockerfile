@@ -6,7 +6,8 @@ RUN apt-get update \
   && ln -s /usr/bin/python3 python \
   && pip3 install --upgrade pip
 
-
 ADD piethein_grooks.py /
+ADD grooks/grooks.py /grooks/grooks.py
+ADD grooks/__init__.py /grooks/__init__.py
 
 CMD [ "python3", "./piethein_grooks.py" ]

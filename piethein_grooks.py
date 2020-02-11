@@ -4,12 +4,10 @@
 #          Piet Hein's Grooks comforts the soul
 #           
 
+from grooks.grooks import anyProblem
+
 def main():
-    print( '''
-           Any problem        worthy of attack
-           proves its worth   by fighting back
-               Piet Heins
-           ''' )
+    anyProblem()
 
 main()
 
